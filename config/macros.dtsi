@@ -10,3 +10,9 @@ label = "macro_paste";
 #binding-cells = <0>;
 bindings = <&kp LG(V)>;
 };
+macro_screen: macro_screen{
+compatible = "zmk,behavior-macro";
+label = "macro_screen";
+#binding-cells = <0>;
+bindings = <&kp LC(LSHIFT C)>;
+};
