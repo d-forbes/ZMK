@@ -16,3 +16,9 @@ label = "macro_screen";
 #binding-cells = <0>;
 bindings = <&kp LC(LSHIFT C)>;
 };
+macro_emoji_picker: macro_emoji_picker{
+compatible = "zmk,behavior-macro";
+label = "macro_emoji_picker";
+#binding-cells = <0>;
+bindings = <&kp LC(LG(SPACE))>;
+};
