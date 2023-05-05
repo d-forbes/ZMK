@@ -1,15 +1,3 @@
-macro_copy: macro_copy{
-compatible = "zmk,behavior-macro";
-label = "macro_copy";
-#binding-cells = <0>;
-bindings = <&kp LG(C)>;
-};
-macro_paste: macro_paste{
-compatible = "zmk,behavior-macro";
-label = "macro_paste";
-#binding-cells = <0>;
-bindings = <&kp LG(V)>;
-};
 macro_screen: macro_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_screen";
