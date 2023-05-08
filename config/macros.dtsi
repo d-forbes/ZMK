@@ -4,3 +4,9 @@ label = "macro_emoji_picker";
 #binding-cells = <0>;
 bindings = <&kp LC(LG(SPACE))>;
 };
+macro_screen_shot: macro_screen_shot{
+compatible = "zmk,behavior-macro";
+label = "macro_screen_shot";
+#binding-cells = <0>;
+bindings = <&kp LC(LS(S))>;
+};
