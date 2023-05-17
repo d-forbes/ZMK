@@ -30,7 +30,7 @@
         quick_tap_ms = <75>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
-    }
+    };
     td_mt: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
