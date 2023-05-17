@@ -1,25 +1,26 @@
-ZMK_MACRO(macro_screen_shot,
+macro_screen_shot: macro_screen_shot {
+        compatible = "zmk,behavior-macro";
+        label = "macro_screen_shot";
+        #binding-cells = <0>;
         wait-ms = <30>;
         tap-ms = <30>;
-        bindings
+        bindings =
             = <&macro_press &kp LC>
             , <&macro_press &kp LS>
             , <&macro_tap &kp S>
             , <&macro_release &kp LS>
             , <&macro_release &kp LC>;
-    )
-ZMK_MACRO(macro_emoji,
+    };
+macro_emoji: macro_emoji {
+        compatible = "zmk,behavior-macro";
+        label = "macro_emoji";
+        #binding-cells = <0>;
         wait-ms = <30>;
         tap-ms = <30>;
-        bindings
+        bindings =
             = <&macro_press &kp LC>
             , <&macro_press &kp LG>
             , <&macro_tap &kp SPACE>
             , <&macro_release &kp LG>
             , <&macro_release &kp LC>;
-    )
-ZMK_MACRO(my_macro,
-        wait-ms = <30>;
-        tap-ms = <30>;
-        bindings = <&kp Z &kp M &kp K>;
-    )
+    };
