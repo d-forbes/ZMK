@@ -5,11 +5,7 @@ macro_screen_shot: macro_screen_shot {
         wait-ms = <30>;
         tap-ms = <30>;
         bindings
-            = <&macro_press &kp LC>
-            , <&macro_press &kp LS>
-            , <&macro_tap &kp S>
-            , <&macro_release &kp LS>
-            , <&macro_release &kp LC>;
+            = <&kp LC(LS(S))>;
     };
 macro_emoji: macro_emoji {
         compatible = "zmk,behavior-macro";
@@ -18,9 +14,5 @@ macro_emoji: macro_emoji {
         wait-ms = <30>;
         tap-ms = <30>;
         bindings
-            = <&macro_press &kp LC>
-            , <&macro_press &kp LG>
-            , <&macro_tap &kp SPACE>
-            , <&macro_release &kp LG>
-            , <&macro_release &kp LC>;
+            = <&kp LC(LG(SPACE))>;
     };
