@@ -16,3 +16,12 @@ macro_emoji: macro_emoji {
         bindings
             = <&kp LC(LG(SPACE))>;
     };
+macro_jump: macro_jump {
+        compatible = "zmk,behavior-macro";
+        label = "macro_emoji";
+        #binding-cells = <0>;
+        wait-ms = <30>;
+        tap-ms = <30>;
+        bindings
+            = <&kp LC(GRAVE)>;
+    };

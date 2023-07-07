@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp ESC     &kp N1          &kp N2       &kp N3       &kp N4          &kp N5     &tog 1                                                                                                              &mo 3         &kp N6    &kp N7         &kp N8     &kp N9     &kp N0         &none
- &kp GRAVE   &kp Q           &kp W        &kp E        &kp R           &kp T      &macro_emoji                                                                                                        &none         &kp Y     &kp U          &kp I      &kp O      &kp P          &kp BSLH
- &kp TAB     &kp A           &kp S        &kp D        &kp F           &kp G      &macro_screen_shot                  &kp LCTRL   &kp LALT  &none   &none     &kp RALT  &kp RCTRL                     &none         &kp H     &kp J          &kp K      &kp L      &kp SEMI       &kp SQT
- &kp LSHFT   &kp Z           &kp X        &kp C        &kp V           &kp B                           &none          &none       &kp A     &none   &none     &kp A     &none        &none                          &kp N     &kp M          &kp COMMA  &kp DOT    &kp FSLH       &kp RSHFT
- &mo 2       &kp MINUS       &kp EQUAL    &kp LBKT     &kp RBKT                                        &kp BSPC       &kp LGUI    &kp CAPS                    &kp CAPS  &kp ENTER    &kp SPACE                                &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT      &mo 2
+ &kp ESC     &kp N1          &kp N2       &kp N3       &kp N4          &kp N5     &tog 1                                                                                                                  &mo 3         &kp N6    &kp N7         &kp N8     &kp N9     &kp N0         &none
+ &kp GRAVE   &kp Q           &kp W        &kp E        &kp R           &kp T      &macro_emoji                                                                                                            &none         &kp Y     &kp U          &kp I      &kp O      &kp P          &kp BSLH
+ &kp TAB     &bhm LCTRL A    &bhm LALT S  &kp D        &bhm LSHFT F    &kp G      &macro_screen_shot                  &kp LCTRL   &kp LALT      &none   &none     &kp RALT  &kp RCTRL                     &none         &kp H     &bhm RSHFT J   &kp K      &kp L      &kp SEMI       &kp SQT
+ &kp LSHFT   &kp Z           &kp X        &kp C        &kp V           &kp B                           &none          &none       &macro_jump   &none   &none     &kp A     &none        &none                          &kp N     &kp M          &kp COMMA  &kp DOT    &kp FSLH       &kp RSHFT
+ &mo 2       &kp MINUS       &kp EQUAL    &kp LBKT     &kp RBKT                                        &kp BSPC       &kp LGUI    &kp CAPS                        &kp CAPS  &kp ENTER    &kp SPACE                                &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT      &mo 2
             >;
         };
 
